@@ -1,0 +1,32 @@
+body { background-color:white; 
+}
+/*
+    SELECTORE
+
+        - Selectores por etiqueta
+        - Selector por clase
+        - Selector por ID
+
+    Para poder seleccionar elementos por id, usamos como prefijo
+    (antes del nombre del selector) el signo #
+
+    Para poder seleccionar elementos por su clase, utilizamos 
+    el signo de . (punto)
+
+    Nota: los estilos por ID tienen mayor jerarquia que los
+    estilos por clase
+*/
+
+.ch27{
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+    border-color: chartreuse;
+    border: 100px, solid;
+    border-style: solid;
+}
+
+#kelly{
+    background-color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}

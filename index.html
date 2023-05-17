@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <link href="./assets/styles/style.css" rel="stylesheet"> <!--Esta conexión se hace DENTRO del head-->
+
+    <!-- 
+        rel = indica que el archivo vinculado es una hoja de estilos
+        href = indica la dirección donde se encuentra el archivo
+        type = indica el tipo de archivo, en HTML5 y YA NO SE UTILIZA
+    -->
+
+</head>
+<body>
+    
+    <!-- Etiqueta con atributos--
+    <img src="imagenGenerica.png">
+
+    -- img es la etiqueta
+        src es el atributo.
+        "imagenGenerica.png" es el valor del atributo
+    --
+
+    <a href="https://www.pinterest.com.mx/"
+    target="_blank">Llévame a Pinterest</a>
+    --
+        a es la etiqueta
+        href es el atributo
+        lo que hay en target o sea "https://www.pinterest.com.mx/" es el valor del tributo
+    -->
+
+    <!-- Estilo como atributo (Jerarquia mayor) MALA PRACTICA--
+    <p style="color: rgb(34, 34, 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, repellendus ad ab quos provident<br> sapiente nostrum cumque cum quis fugiat dignissimos praesentium rerum illum consequatur velit fuga saepe distinctio ipsam.</p>
+
+    <p style="background-color: blueviolet; color: brown; font-size: small; font-style: oblique;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae minus nisi mollitia,<br> vitae totam distinctio facilis laborum, et sint qui eaque, eveniet eum? Incidunt deserunt ad molestiae eius eveniet.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam magni reprehenderit doloremque officia amet ratione,<br> qui aut excepturi cum neque totam architecto maiores consequuntur molestias ullam minima distinctio consectetur?</p>
+
+    -- Estilos dentro de una etiqueta llamada style MALA PRACTICA--
+    <style> 
+
+        p { background-color:hsl(22, 79%, 49%); 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: medium;
+        }
+    
+    </style>
+
+    -- Estilos en un documento externo.... ESTO ES UNA BUENA PRACTICA-->
+    
+    
+    <h1> Ejercicio Cohorte 27</h1>
+    
+    <p id="kelly" class="ch27">Kelly</p>
+    <p id="mariana" class="ch27">Mariana</p>
+    <p id="david" class="ch27">David</p>
+    <p id="brandon" class="ch27">Brandon</p>
+    <p id="carlos" class="ch27">Carlos</p>
+    <p id="ale" class="ch27">Ale</p>
+    <p id="ricardo" class="ch27">Ricardo</p>
+    <p id="felipe" class="ch28">Felipe</p>
+    <p id="fernanda" class="ch27">Fernanda</p>
+    <p id="gaby" class="ch27">Gaby</p>
+    <p id="maara" class="ch27">Maara</p>
+
+
+
+    
+</body>
+</html>
+<!-- 
+            Notas de la sesión
+
+    Con la extensión .html le decimos al documentos con que programas será abierto
+    Con el Doctype le decimos al navegador como interpreta el documento
+
+    Existen varias formas de agregar estilos a un documento html
+    
+    - inline o directamente en la etiqueta como valores de  atributos
+
+    - estilos dentro de una etiqueta llamada <style> </style>
+
+    -documento externo (Esta es la mejor practica de programación)
+
+    SELECTORES
+
+        - Selectores por etiqueta (referenciar etiquetas)
+        - Selectores por clase
+        - Selectores por Id
+
+    
+-->
